@@ -1,0 +1,39 @@
+git clone https://github.com/tribugs-team/test-repository.git
+
+cd test-repository
+
+git branch Your-branch
+
+git checkout Your-branch
+
+git push --set-upstream origin raman-branch
+
+git branch --list
+
+git pull origin main
+
+
+[ After changes made  ]	- test.php
+
+
+git stage test.php
+
+git status	{ your file will be in green ready to push }
+
+[ if any proble in stage/unstage use ]
+ 
+git reset
+
+=========================================================
+
+[ Set Your Email snd Userame ]	{ one time use }
+
+git config --global user.email "-----------"
+
+git config --global user.name "--------"
+
+=========================================================
+
+git commit -m "This is new Changed file"
+
+git push
